@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".veterinaria2"
+    android:padding="20dp">
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nombre"
+            style="@style/CardView.Dark"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/pregunta"
+            android:layout_marginTop="50dp"
+            android:text="¿QUE DESEA QUE SE LE REALICE A SU MASCOTA?"
+            style="@style/CardView.Dark"
+            android:fontFamily="sans-serif-black"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/baño"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/teal_700"
+            android:text="Baño" />
+
+        <Button
+            android:id="@+id/Corte"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/teal_700"
+            android:text="Corte" />
+
+        <Button
+            android:id="@+id/anterior"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@android:color/background_dark"
+            android:text="Anterior" />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
