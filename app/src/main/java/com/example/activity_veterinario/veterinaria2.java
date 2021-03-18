@@ -54,7 +54,7 @@ public class veterinaria2 extends AppCompatActivity {
 
     private void leercredenciales() {
         preferences = getSharedPreferences("credenciales", Context.MODE_PRIVATE);
-        nombreuser.setText("Bienvenido a CATDOG :" + preferences.getString("user", ""));
+        nombreuser.setText("Bienvenido a CATDOG : " + preferences.getString("user", ""));
     }
 
 
